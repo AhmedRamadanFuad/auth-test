@@ -17,7 +17,7 @@ export default async function Home() {
             className="flex items-center gap-2 cursor-pointer"
           >
             {/* <LogIn className="w-4 h-4" /> */}
-            <span className="hidden lg:inline">Sign Out</span>
+            <span className="">Sign Out</span>
           </button>
         </form>
       ) : (
@@ -33,7 +33,7 @@ export default async function Home() {
             className="flex items-center gap-2 cursor-pointer"
           >
             {/* <LogIn className="w-4 h-4" /> */}
-            <span className="hidden lg:inline">Sign In</span>
+            <span className="">Sign In</span>
           </button>
         </form>
       )}
